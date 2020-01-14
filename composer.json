@@ -13,6 +13,12 @@
             "name": "François Zaninotto"
         }
     ],
+    "replaces": {
+        "fzaninotto/faker": "*"
+    },
+    "conflict": {
+        "fzaninotto/faker": "*"
+    },
     "require": {
         "php": "^5.3.3 || ^7.0"
     },
