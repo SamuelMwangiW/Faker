@@ -1,7 +1,7 @@
 {
     "name": "mwangithegreat/faker",
     "type": "library",
-    "description": "Faker is a PHP library that generates fake data for you.",
+    "description": "Faker is a PHP library that generates fake data for you. It is a Fork of fzaninotto/faker with en_KE provider added pending release of Faker 2.0",
     "keywords": [
         "faker",
         "fixtures",
