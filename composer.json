@@ -13,8 +13,8 @@
             "name": "François Zaninotto"
         }
     ],
-    "replaces": {
-        "fzaninotto/faker": "*"
+    "replace": {
+        "fzaninotto/faker": "v1.9.*"
     },
     "conflict": {
         "fzaninotto/faker": "*"
