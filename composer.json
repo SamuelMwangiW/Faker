@@ -14,7 +14,7 @@
         }
     ],
     "replace": {
-        "fzaninotto/faker": "v1.9.*"
+        "fzaninotto/faker": "*"
     },
     "conflict": {
         "fzaninotto/faker": "*"
