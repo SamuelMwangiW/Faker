@@ -29,6 +29,8 @@ class Vehicle extends \Faker\Provider\Base
      */
     public function vehicleRegistration() : string
     {
-        return Str::upper(static::bothify($this->generator->parse(static::randomElement(static::$vehicleRegistration))));
+        return Str::upper(
+			static::bothify($this->generator->parse(static::randomElement(static::$vehicleRegistration)))
+		);
     }
 }
