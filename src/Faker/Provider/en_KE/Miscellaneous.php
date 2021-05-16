@@ -12,7 +12,8 @@ class Miscellaneous extends \Faker\Provider\Base
         'MP/######',
         'P/???/####/20##/######/',
         'P-20##-1##-9###-##-#####',
-        '0##?#########');
+        '0##?#########'
+    );
 
     public function __construct(Generator $generator)
     {
