@@ -102,7 +102,7 @@ class Person extends \Faker\Provider\Person
      */
     public function lastName($gender = null)
     {
-        $gender = $gender ?? self::randomElement(['male','female']);
+        $gender = in_array($gender, ['male','female']) ? $gender : self::randomElement(['male','female']);
         if ($gender === static::GENDER_MALE) {
             return static::firstNameMale();
         } elseif ($gender === static::GENDER_FEMALE) {
