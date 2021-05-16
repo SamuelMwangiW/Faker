@@ -22,7 +22,7 @@ class Miscellaneous extends \Faker\Provider\Base
     /**
      * @return string
      */
-    public function policyNumber(): string
+    public function policyNumber()
     {
         return Str::upper(
             static::bothify($this->generator->parse(static::randomElement(static::$policyNumber)))

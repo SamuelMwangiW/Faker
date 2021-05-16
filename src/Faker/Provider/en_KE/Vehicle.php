@@ -23,7 +23,7 @@ class Vehicle extends \Faker\Provider\Base
      *
      * @return string
      */
-    public function vehicleRegistration(): string
+    public function vehicleRegistration()
     {
         return Str::upper(
             static::bothify(
@@ -34,7 +34,7 @@ class Vehicle extends \Faker\Provider\Base
         );
     }
 
-    public function vin(): string
+    public function vin()
     {
         return $this->generator->regexify('([A-HJ-NPR-Z0-9]{8})([A-Z0-9]{2})([A-HJ-NPR-Z0-9]{7})');
     }
