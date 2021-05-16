@@ -13,9 +13,6 @@
             "name": "François Zaninotto"
         }
     ],
-    "replace": {
-        "fzaninotto/faker": "*"
-    },
     "conflict": {
         "fzaninotto/faker": "*"
     },
