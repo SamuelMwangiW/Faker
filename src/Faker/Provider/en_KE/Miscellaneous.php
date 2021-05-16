@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Faker\Provider\en_KE;
-
 
 use Faker\Generator;
 use Illuminate\Support\Str;
